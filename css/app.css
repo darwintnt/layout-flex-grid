@@ -14,6 +14,10 @@ li a {
 	text-decoration: none;
 }
 
+a li {
+	text-decoration: none;
+}
+
 a:hover{
 	text-decoration: none;
 	color: #FFF;
@@ -121,6 +125,21 @@ a:hover{
 	width: 130px;
 }
 
+.right-menu ul a li {
+	display: flex;
+	justify-content: space-between;
+	color: black;
+	padding:10px;
+}
+
+.right-menu ul a li:hover{
+	color: #3193D0;
+}
+
+.right-menu ul a li .fa-lg {
+    line-height: normal; 
+}
+
 .user-card {
 	display: flex;
 	flex-direction: column;
@@ -129,8 +148,6 @@ a:hover{
 	min-height: 250px;
     transition: box-shadow .1s ease-in-out;
     color: #666;
-    /*box-shadow: 0 5px 15px rgba(52, 73, 94,.7);*/
-	
 }
 
 .user-card-image {
