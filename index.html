@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Layout FLEXBOX GRID</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	    <!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.9/css/uikit.min.css" />
+
+	<!-- UIkit JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.9/js/uikit.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.9/js/uikit-icons.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="layout-flex"> 
+		
+			<div class="header-main">
+
+				<header class="header-flex-item">
+					<div class="left-menu">
+						<div class="bar-item">
+							<i class="fas fa-bars fa-lg toggle-menu-icon"></i>
+						</div>						
+					</div>
+					<div class="right-menu">
+						<div class="name-item">
+						    <a class="user-name" type="button">Darwin Gómez<i class="fas fa-angle-down fa-lg fa-fw"></i></a>
+						    <div uk-dropdown>
+						        <ul class="uk-nav uk-dropdown-nav">
+						            <li><a href="#"><span class="fas fa-user fa-lg fa-fw"></span> Mi Perfil</a></li>
+							        <li><a href="#"><span class="fas fa-power-off fa-lg fa-fw"></span> Salir</a></li>
+						        </ul>
+						    </div>
+						</div>						
+					</div>		
+				</header>
+
+				<main class="main-flex-item">
+
+					<div class="main-card uk-width-1-1@m uk-padding-small uk-height-viewport">
+
+						<div class="uk-grid-small uk-text-center" uk-grid>
+						    <div class="uk-width-1-2@m">
+						        <div class="card-main uk-card-body">Item</div>
+						    </div>
+						    <div class="uk-width-1-2@m">
+						        <div class="card-main uk-card-body">Item</div>
+						    </div>
+						    <div class="uk-width-1-2@m">
+						        <div class=" card-main uk-card-body">Item</div>
+						    </div>
+						     <div class="uk-width-1-2@m">
+						        <div class="card-main uk-card-body">Item</div>
+						    </div>
+						    <div class="uk-width-1-2@m">
+						        <div class="card-main uk-card-body">Item</div>
+						    </div>
+						    <div class="uk-width-1-2@m">
+						        <div class=" card-main uk-card-body">Item</div>
+						    </div>
+						</div>
+			
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										
+						
+					</div>
+						
+				</main>	
+
+			</div>
+
+			<nav class="nav-flex-item">
+				<div class="logo-company-item">
+					<img src="img/logo.png" alt="logo" class="image-logo">
+				</div>
+				<div class="user-card">
+					<div class="uk-width-auto user-card-image">
+		                <img class="uk-border-circle user-image-item" src="img/user.png">
+		            </div>
+		            <div class="user-card-info">
+		            	<label>Darwin Gómez	</label>
+		            	<label>Últ. Acceso: 2018-07-19 10:54:13</label>
+		            	<label class="uk-label uk-label-success">IP: 127.19.12.8</label>		            	
+		            </div>
+		            					
+				</div>
+				<ul>
+					<a href="#">
+						<li>	
+							<span class="menu-title-item">Dashboard</span>						
+							<span class="menu-icon-item fab fa-black-tie fa-lg"></span> 
+						</li>
+					</a>
+
+					<a href="#">
+						<li>	
+							<span class="menu-title-item">Email</span>						
+							<span class="menu-icon-item fab fa-black-tie fa-lg"></span> 
+						</li>
+					</a>
+
+					<a href="#">
+						<li>	
+							<span class="menu-title-item">Social</span>						
+							<span class="menu-icon-item fab fa-black-tie fa-lg"></span> 
+						</li>
+					</a>
+
+					<a href="#">
+						<li>	
+							<span class="menu-title-item">Calendar</span>						
+							<span class="menu-icon-item fab fa-black-tie fa-lg"></span> 
+						</li>
+					</a>
+
+					<a href="#">
+						<li>	
+							<span class="menu-title-item">Builder</span>						
+							<span class="menu-icon-item fab fa-black-tie fa-lg"></span> 
+						</li>
+					</a>
+
+					<a href="#">
+						<li>	
+							<span class="menu-title-item">Cards</span>						
+							<span class="menu-icon-item fab fa-black-tie fa-lg"></span> 
+						</li>
+					</a>
+
+				</ul>
+				</ul>
+			</nav>
+	
+			
+		</div>	
+		
+	</div>
+	
+<script src="js/app.js"></script>
+</body>
+
+</html>
